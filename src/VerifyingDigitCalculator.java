@@ -11,7 +11,8 @@ public class VerifyingDigitCalculator {
                 auxValue *= 2;
                 if (auxValue >= 10) {
                     String convertedAuxValue = String.valueOf(auxValue);
-                    auxValue = Character.getNumericValue(convertedAuxValue.charAt(0)) + Character.getNumericValue(convertedAuxValue.charAt(1));
+                    auxValue = Character.getNumericValue(convertedAuxValue.charAt(0))
+                            + Character.getNumericValue(convertedAuxValue.charAt(1));
                 }
             }
 
